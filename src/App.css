@@ -1,0 +1,41 @@
+.app{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;    
+    font-size: larger;
+}
+.app:before{
+    content: '';
+    background: url('./assets/pic.jpg') no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.app input{
+        padding: 0.5rem 1.2rem;
+        border-radius: 25px;
+        border: 1px solid ;
+        background: rgba(255, 255, 255, 0.048);
+        color: #f8f8f8;
+        text-align: center;
+        margin-bottom: 20px;
+}
+.container{
+    padding-top: 200px;
+}
+label{
+    padding: 0.5rem 1.2rem;
+    border-radius: 25px;
+    color: #f8f8f8;
+    border: 1px solid ;
+    background: rgba(255, 255, 255, 0.023);
+    margin-bottom: 20px;
+}
+.container{
+    flex-direction: column;
+    width: 400px;
+    
+}
